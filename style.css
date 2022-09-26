@@ -102,6 +102,26 @@ nav ul a:hover{
   font-weight: 600;
 }
 
+
+  .type {
+    position: relative;
+    display: inline-block;
+    /* color: rgb(233, 71, 71); */
+    text-transform: capitalize;
+    animation: waviy 5s infinite;
+    animation-delay: calc(2s * var(--i));
+    
+  }
+  @keyframes  slidein{
+    0%,100%,100% {
+        transform: translateY(0)
+      }
+      100% {
+        transform: translateX(100%)
+      }
+
+  }
+  
 .banner-content span {
     width: 150px;
     height: 5px;
@@ -193,8 +213,121 @@ nav ul a:hover{
 .col-1-2 a {
   color: red;
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 15px auto 0;
   font-weight: 650;
   display: inline-block;
+}
+
+.word-section{
+background-image: url(./images/dawn.jpg);
+margin: 50px 0;
+padding: 100px 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: multiply;
+background-color: ;
+}
+
+.word-section h2{
+    font-size: 60px;
+    color: white;
+    line-height: 115px;
+    /* text-align: center; */
+}
+.word-section span{
+    width: 150px;
+    height: 5px;
+    display: block;
+    background-color: red;
+    margin: 20px auto 30px;
+}
+.word-section p{
+    font-size: 17px;
+    color: white;
+    margin: 0 0 26px 0;
+
+}
+.word-section a{
+    text-decoration: none;
+    color: white;
+}
+
+.explore{
+    width: 50%;
+ 
+}
+
+.small-explore{
+    display: flex;
+    justify-content: end;
+}
+.picture-section{
+    padding: 100px 0;
+
+
+}
+.box{
+    width: 33.33%;
+
+}
+
+.box-item{
+    padding: 25px;
+
+}
+
+.box-item span{
+    width: 300x;
+    height: 5px;
+    display: block;
+    background-color: red;
+    margin: 24px auto 30px;
+}
+    
+
+
+.box-item p{
+    font-size: 17px;
+    margin: 20px 0;
+
+
+}
+
+.box-item a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+.small-photo{
+    height: 300px;
+    object-fit: cover;
+    margin: 0 0 35px 0;
+
+
+}
+
+.big-photo{
+    height: 500px;
+    object-fit: cover;
+    margin: 0 0 35px 0;
+
+}
+
+.box-item h3{
+    font-size: 35px;
+
+
+}
+footer{
+    background-color: rgb(240, 241, 219);
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer h4{
+    margin: 20px;
+
 }
